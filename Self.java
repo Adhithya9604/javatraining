@@ -7,6 +7,10 @@
              String profession ="Student";  
              System.out.println(myName);
              System.out.println(age);
+             System.out.println(location);
+             System.out.println(profession);
+
+
      }
     
 
