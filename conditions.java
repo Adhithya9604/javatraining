@@ -3,15 +3,15 @@ class conditions{
 
     public static void main(String[] args) {
         
-    int balance =99;
-    if(balance>=100)
-
-    {
-      System.out.println("Your balance is above");
-
-      if (balance>=100 && balance<=200)
+    int balance =400;
+    boolean result =balance>=100;
+  
+    if(result){
+          System.out.println("You don't have enough balance");
+    }
+      if (balance>=100 && balance<=500)
       {
-         System.out.println("Your balance is in between 100 and 200");
+         System.out.println("Your have min balance");
         
       }
       
