@@ -2,6 +2,7 @@ class conditions{
 
 
     public static void main(String[] args) {
+        
     int balance =99;
     if(balance>=100)
 
