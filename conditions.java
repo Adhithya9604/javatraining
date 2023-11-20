@@ -6,7 +6,7 @@ class conditions{
     int balance =400;
     boolean result =balance>=100;
   
-    if(result){
+    if(balance<=99){
           System.out.println("You don't have enough balance");
     }
       if (balance>=100 && balance<=500)
