@@ -6,7 +6,7 @@ class Grade{
      Scanner scanner = new Scanner(System.in);
       
      System.out.println("Enter the student's mark:");
-     double marks = scanner.nextDouble();
+     int marks = scanner.nextInt();
     
      String grade;
      if(marks<40){
@@ -31,7 +31,7 @@ class Grade{
         grade =("Invalid marks entered");
     }
     
-     System.out.println("Mark:" + grade);
+     System.out.println("Marks:" + grade);
      }
     
 
