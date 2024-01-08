@@ -1,4 +1,4 @@
-package students_example;
+2package students_example;
 import java.util.Scanner;
 
 public class Student {

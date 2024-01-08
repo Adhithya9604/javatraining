@@ -6,6 +6,9 @@ protected final long BASE_SALARY = 1000;
 
 @Override
 protected void calculateSalary() {
-	salary = WORKING_HOURS * BASE_SALARY;
-}
+	try{System.out.println("Something went wrong");
+	} catch(Exception e) {salary = WORKING_HOURS * BASE_SALARY;
+		
+	}
+	}
 }
