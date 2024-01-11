@@ -8,11 +8,11 @@ public class arrayCollection {
 		ArrayList<String> a = new ArrayList();
 		for (int i = 0; i < 50; i++) {
 			a.add("MyData"+i);
-			  // a.remove(1);
 			//a.contains("data(5)");
+			//a.remove(i);
 			System.out.println(a.indexOf("MyData"+i));
 		}
-
 	}
+}      
+          
 
-}
