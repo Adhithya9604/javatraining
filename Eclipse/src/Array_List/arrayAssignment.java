@@ -8,7 +8,7 @@ public class arrayAssignment {
      ArrayList<String> colours = new ArrayList();
      
      colours.add("Black");
-      colours.add("Green");
+      colours.add("Purple");
       colours.add("Blue");
       colours.add("Red");
       colours.add("Pink");
